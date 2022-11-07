@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Áreas y Volúmenes</string>
+    <string name="menuareas">Menú de Áreas</string>
+    <string name="menuvolumenes">Menú de Volúmenes</string>
+    <string name="areaHexagono">Área y Perimetro del Hexágono</string>
+    <string name="areaPentagono">Área y Perimetro del Pentágono</string>
+    <string name="areaCuadrado">Área y Perimetro del Cuadrado</string>
+    <string name="areaCirculo">Área y Perimetro del Círculo</string>
+    <string name="areaTriangulo">Área y Perimetro del Triángulo</string>
+
+    <string name="volumenPHexagonal">Volumen del Prisma Hexagonal</string>
+    <string name="volumenPPentagonal">Volumen del Prisma Pentagonal</string>
+    <string name="volumenCubo">Volumen del Cubo</string>
+    <string name="volumenCilindro">Volumen del Cilindro</string>
+    <string name="volumenPTriangular">Volumen del Prisma Triangular</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Áreas de figuras geométricas"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAreas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="#B8BAB9"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="30dp">
+        <ImageView
+            android:id="@+id/imgMenuAreas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/areas_r"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volúmenes de poliedros"
+        android:layout_marginTop="360dp"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardVolumenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="#B8BAB9"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="30dp">
+        <ImageView
+            android:id="@+id/imgMenuVolumenes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/volumenes_r"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
